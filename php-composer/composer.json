@@ -1,0 +1,17 @@
+{
+    "name": "dimascahyo557/belajar-php-composer",
+    "description": "Belajar php composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Dimascahyo557\\BelajarPhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dimascahyo557",
+            "email": "dimasamid557@gmail.com"
+        }
+    ],
+    "require": {}
+}
