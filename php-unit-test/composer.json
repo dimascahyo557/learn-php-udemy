@@ -1,0 +1,24 @@
+{
+    "name": "dimascahyo/php-unit-test",
+    "description": "Belajar php unit test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "dimascahyo557",
+            "email": "dimasamid557@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dimascahyo\\PhpUnitTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dimascahyo\\PhpUnitTest\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
