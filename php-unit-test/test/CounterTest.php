@@ -57,4 +57,5 @@ class CounterTest extends TestCase
         $counter->increment();
         $this->assertEquals(2, $counter->getCounter());
     }
+    // Sebaiknya unit test itu idependen / tidak tergantung dengan unit test lainnya
 }
