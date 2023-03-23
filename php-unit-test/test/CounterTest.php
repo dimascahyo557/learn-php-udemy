@@ -39,6 +39,14 @@ class CounterTest extends TestCase
         $counter->increment();
         Assert::assertEquals(1, $counter->getCounter());
     }
+    
+    public function testIncementSecond()
+    {
+        $counter = new Counter();
+        Assert::assertEquals(0, $counter->getCounter());
+        $this->markTestIncomplete("Belum kelar bang");
+        echo "kode baris ini tidak dibaca" . PHP_EOL;
+    }
 
     public function testFirst(): Counter
     {
